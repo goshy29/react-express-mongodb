@@ -20,6 +20,7 @@ This Full-Stack Project which I called MyPlaces with React, Express.js and Mongo
 Frontend: Contains all React components and frontend logic.
  1. Components: Components(some of them reusable) for different sections of the project, including Menu.
  2. Pages: Separate pages for Home, Places and Add Place.
+
 Backend: Contains all Express.js server-side code and database logic.
  1. Routes: Define API endpoints for fetching and manipulating project data.
  2. Controllers: Handle the logic for each API endpoint.
