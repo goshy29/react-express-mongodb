@@ -27,7 +27,7 @@ Backend: Contains all Express.js server-side code and database logic.
  4. Config: Configuration files, including database connection settings.
 
 ## To run this project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/react-portfolio
+1. Clone the repository: git clone https://github.com/goshy29/react-express-mongodb.git
 2. Open the project with your code editor(VS Code) and open TWO New Terminals
 3. At the First Terminal to install Frontend dependencies, in the root directory run: npm install       
 4. At the Second Terminal to install Backend dependencies, type "cd backend" then run: npm install   
