@@ -42,3 +42,18 @@ Backend: Contains all Express.js server-side code and database logic.
 3. country: United States of America
 4. image url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg/1280px-Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg
 5. description: Central Park is the fifth-largest park in New York City, behind Pelham Bay Park, the Staten Island Greenbelt, Van Cortlandt Park, and Flushing Meadows–Corona Park, with an area of 843 acres (341 ha; 1.317 sq mi; 3.41 km2).
+
+## MongoDB Atlas Connection:
+You will find this connection code at directory "backend/app.js". 
+
+mongoose
+    .connect("mongodb+srv://username:password@cluster0.mb9mxkm.mongodb.net/myplaces?retryWrites=true&w=majority&appName=Cluster0")
+    .then(() => {
+        app.listen(5000);
+    })
+    .catch(error => {
+        console.log(error);
+    })
+
+Replace your mongodb connection string with the connection string that MongoDB Atlas generate for you when you create database or if you already have database, use that connection string. And be sure that you replace username and password from the connection string with your actual database credentials!
+
