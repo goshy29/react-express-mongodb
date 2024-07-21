@@ -55,5 +55,5 @@ mongoose
         console.log(error);
     })
 
-Replace your mongodb connection string with the connection string that MongoDB Atlas generate for you when you create database or if you already have database, use that connection string. And be sure that you replace username and password from the connection string with your actual database credentials!
+Replace that mongodb connection string with the connection string that MongoDB Atlas generate for you when you create database or if you already have database, use that connection string. And be sure that you replace username and password from the connection string with your actual database credentials!
 
